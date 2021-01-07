@@ -9,6 +9,8 @@ var indexRouter = require('./routes/index');
 require('dotenv').config()
 
 var app = express();
+// production 
+// app.use(express.static("./../client/build"));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
