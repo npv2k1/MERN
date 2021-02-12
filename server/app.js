@@ -18,7 +18,8 @@ require("dotenv").config();
 
 
 var app = express();
-// production
+// Production React
+
 // app.use(express.static("./../client/build"));
 
 // view engine setup
@@ -40,13 +41,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 
+// Routes
 app.use("/api/users", require('./routes/api/users'));
 app.use("/api/admin", require("./routes/api/admin"));
-app.use("/api/transaction", require("./routes/api/transaction"));
 
 
 /*
- * Xử lý lỗi 404
+ * Error 404
  */
 
 // catch 404 and forward to error handler

@@ -5,7 +5,7 @@ import SideBar from "./SideBar"
 import AppView from "./AppView"
 
 
-import NewHeader from "./NewHeader"
+import NewHeader from "./Header"
 class Layout extends React.Component {
   constructor(props) {
     super(props);

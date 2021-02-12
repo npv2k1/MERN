@@ -10,7 +10,6 @@ import Login from "../Auth/login";
 import Register from "../Auth/register";
 import UserTable from "../UserTable/UserTable";
 import InfoUser from "../InfoUser/InfoUser";
-import Tmp from "./tmp";
 
 import setAuthToken from "../../utils/setAuthToken";
 

@@ -36,10 +36,6 @@ const usersSchema = new mongoose.Schema({
   role:{
     type:Number,
     default: 2,
-  },
-  balance:{
-    type:Number,
-    default:0,
   }
 });
 // tạo model
