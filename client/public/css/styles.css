@@ -1,0 +1,64 @@
+#evInput {
+  width: max-content;
+}
+
+#evInput {}
+
+
+body {
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+}
+
+
+
+
+.header-fixed {
+  width: 100%
+}
+
+.header-fixed>thead,
+.header-fixed>tbody,
+.header-fixed>thead>tr,
+.header-fixed>tbody>tr,
+.header-fixed>thead>tr>th,
+.header-fixed>tbody>tr>td {
+  display: block;
+  text-align: center;
+}
+
+.header-fixed>tbody>tr:after,
+.header-fixed>thead>tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.header-fixed>tbody {
+  overflow-y: auto;
+  height: 70vh !important;
+}
+
+.header-fixed>tbody>tr>td,
+.header-fixed>thead>tr>th {
+  width: 15%;
+  float: left;
+}
+
+.header-fixed4>tbody>tr>td,
+.header-fixed4>thead>tr>th {
+  width: 20% !important;
+  float: left;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word !important;
+}
+
+table td {
+  overflow: hidden;
+}
