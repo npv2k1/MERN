@@ -2,19 +2,17 @@
 
 ## Client
 
-Đây là folder chứa code FontEnd sử dụng react. Cách khởi tạo.
-
 ```powershell
 npx create-react-app client
 ```
 
-Để chạy ta sử dụng lệnh:
+Start
 
 ```powershell
 npm start
 ```
 
-Cách kết nối react app với server nodejs
+conect server nodejs
 
 ```json
 {
@@ -25,21 +23,16 @@ Cách kết nối react app với server nodejs
 
 ```
 
-
-
 ## Server
-
-Đây là folder chứa code BackEnd.
-
-cài đặt port  của server là 5000 để kết nối với react app
+port
 
 ```javascript
-var port = normalizePort(process.env.PORT || '5000');
+var port = normalizePort(process.env.PORT || "5000");
 ```
 
 # MERN
 
-Cách bước để chạy mern
+start mern
 
 Build client:
 
@@ -47,15 +40,14 @@ Build client:
 cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build
 ```
 
-Thêm folder client vào server
+React build:
 
 ```javascript
 app.use(express.static("./../client/build"));
 ```
 
-Chạy server
+Run server
 
 ```powershell
 cd server && npm start
 ```
-
